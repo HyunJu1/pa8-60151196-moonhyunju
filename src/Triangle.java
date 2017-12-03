@@ -20,7 +20,7 @@ public class Triangle extends Shape {
 
 	public double getLength() {
 		double result = 0;
-		result = (Math.hypot(bottom/2, width))*2+bottom;
+		result = (Math.hypot(bottom/2, width))*2+bottom; //Math라는 클래스의 메소드인 hypot이용하여 빗변의 길이를 구한다 .
 		return result;
 	}
 
@@ -33,7 +33,7 @@ public class Triangle extends Shape {
 	x+=dx;
 	y+=dy;
 	
-		
+	 //move 오버라이드하여 구현해야한다. x와y좌표가 각각 dx와 dy만큼 이동 .	
 	}
 
 }

@@ -29,7 +29,7 @@ public class Circle extends Shape {
 	}
 
 	@Override
-	public void move(double dx, double dy) {
+	public void move(double dx, double dy) { //move 오버라이드하여 구현해야한다. x와y좌표가 각각 dx와 dy만큼 이동 .
 	x+=dx;
 	y+=dy;
 	

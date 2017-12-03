@@ -1,5 +1,5 @@
 //60151196 문현주
-//메인메소드 포함된 클래스
+//메인메소드 포함된 test클래스
 public class ShapeTest2 {
 
 	public static void main(String[] args) {
@@ -25,8 +25,9 @@ public class ShapeTest2 {
 		}
 		Shape circle=new Circle(100,100,20);
 		
-		System.out.println("");
+		System.out.println("");  
 		System.out.println("****circle moving test****");
+		 //documnent에 나온대로 circle move가 잘 되는지 testing
 		for(int i=0; i<10; i++){
 			circle.move(10,10);
 			circle.draw();
